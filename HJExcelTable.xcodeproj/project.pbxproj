@@ -3,18 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36895575C745581746AD5382 /* Pods_HJExcelTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023B393597F5499527D36064 /* Pods_HJExcelTable.framework */; };
 		D2A7C07D2320BD1500A60708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C07C2320BD1500A60708 /* AppDelegate.m */; };
-		D2A7C0802320BD1500A60708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C07F2320BD1500A60708 /* ViewController.m */; };
 		D2A7C0832320BD1500A60708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A7C0812320BD1500A60708 /* Main.storyboard */; };
 		D2A7C0852320BD1800A60708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A7C0842320BD1800A60708 /* Assets.xcassets */; };
 		D2A7C0882320BD1800A60708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A7C0862320BD1800A60708 /* LaunchScreen.storyboard */; };
 		D2A7C08B2320BD1800A60708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C08A2320BD1800A60708 /* main.m */; };
 		D2A7C0952320BD1800A60708 /* HJExcelTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C0942320BD1800A60708 /* HJExcelTableTests.m */; };
 		D2A7C0A02320BD1800A60708 /* HJExcelTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C09F2320BD1800A60708 /* HJExcelTableUITests.m */; };
+		D2A7C0B22320DCA500A60708 /* HJExcelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C0AE2320DCA400A60708 /* HJExcelCell.m */; };
+		D2A7C0B32320DCA500A60708 /* HJExcelTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C0B02320DCA400A60708 /* HJExcelTable.m */; };
+		D2A7C0BA2320EC2500A60708 /* HJExcelDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C0B92320EC2500A60708 /* HJExcelDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023B393597F5499527D36064 /* Pods_HJExcelTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJExcelTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DA07CA019944BDFE2C4095 /* Pods-HJExcelTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJExcelTable.release.xcconfig"; path = "Target Support Files/Pods-HJExcelTable/Pods-HJExcelTable.release.xcconfig"; sourceTree = "<group>"; };
 		D2A7C0782320BD1500A60708 /* HJExcelTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJExcelTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A7C07B2320BD1500A60708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2A7C07C2320BD1500A60708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D2A7C07E2320BD1500A60708 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2A7C07F2320BD1500A60708 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D2A7C0822320BD1500A60708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A7C0842320BD1800A60708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A7C0872320BD1800A60708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,14 @@
 		D2A7C09B2320BD1800A60708 /* HJExcelTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJExcelTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A7C09F2320BD1800A60708 /* HJExcelTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJExcelTableUITests.m; sourceTree = "<group>"; };
 		D2A7C0A12320BD1800A60708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A7C0AE2320DCA400A60708 /* HJExcelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJExcelCell.m; sourceTree = "<group>"; };
+		D2A7C0AF2320DCA400A60708 /* HJExcelTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJExcelTable.h; sourceTree = "<group>"; };
+		D2A7C0B02320DCA400A60708 /* HJExcelTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJExcelTable.m; sourceTree = "<group>"; };
+		D2A7C0B12320DCA400A60708 /* HJExcelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJExcelCell.h; sourceTree = "<group>"; };
+		D2A7C0B42320E2AE00A60708 /* HJExcelConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJExcelConst.h; sourceTree = "<group>"; };
+		D2A7C0B82320EC2500A60708 /* HJExcelDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJExcelDemoController.h; sourceTree = "<group>"; };
+		D2A7C0B92320EC2500A60708 /* HJExcelDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJExcelDemoController.m; sourceTree = "<group>"; };
+		D8F2C7549D7EAB7C248962DF /* Pods-HJExcelTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJExcelTable.debug.xcconfig"; path = "Target Support Files/Pods-HJExcelTable/Pods-HJExcelTable.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36895575C745581746AD5382 /* Pods_HJExcelTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5385A2AB0660C54C5635EC28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				023B393597F5499527D36064 /* Pods_HJExcelTable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88F425DD6A43B080B49F88FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2C7549D7EAB7C248962DF /* Pods-HJExcelTable.debug.xcconfig */,
+				42DA07CA019944BDFE2C4095 /* Pods-HJExcelTable.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D2A7C06F2320BD1500A60708 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				D2A7C0932320BD1800A60708 /* HJExcelTableTests */,
 				D2A7C09E2320BD1800A60708 /* HJExcelTableUITests */,
 				D2A7C0792320BD1500A60708 /* Products */,
+				88F425DD6A43B080B49F88FC /* Pods */,
+				5385A2AB0660C54C5635EC28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +132,10 @@
 		D2A7C07A2320BD1500A60708 /* HJExcelTable */ = {
 			isa = PBXGroup;
 			children = (
+				D2A7C0B72320EBD400A60708 /* demo */,
+				D2A7C0AD2320DCA400A60708 /* excel */,
 				D2A7C07B2320BD1500A60708 /* AppDelegate.h */,
 				D2A7C07C2320BD1500A60708 /* AppDelegate.m */,
-				D2A7C07E2320BD1500A60708 /* ViewController.h */,
-				D2A7C07F2320BD1500A60708 /* ViewController.m */,
 				D2A7C0812320BD1500A60708 /* Main.storyboard */,
 				D2A7C0842320BD1800A60708 /* Assets.xcassets */,
 				D2A7C0862320BD1800A60708 /* LaunchScreen.storyboard */,
@@ -132,6 +163,27 @@
 			path = HJExcelTableUITests;
 			sourceTree = "<group>";
 		};
+		D2A7C0AD2320DCA400A60708 /* excel */ = {
+			isa = PBXGroup;
+			children = (
+				D2A7C0B12320DCA400A60708 /* HJExcelCell.h */,
+				D2A7C0AE2320DCA400A60708 /* HJExcelCell.m */,
+				D2A7C0AF2320DCA400A60708 /* HJExcelTable.h */,
+				D2A7C0B02320DCA400A60708 /* HJExcelTable.m */,
+				D2A7C0B42320E2AE00A60708 /* HJExcelConst.h */,
+			);
+			path = excel;
+			sourceTree = "<group>";
+		};
+		D2A7C0B72320EBD400A60708 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				D2A7C0B82320EC2500A60708 /* HJExcelDemoController.h */,
+				D2A7C0B92320EC2500A60708 /* HJExcelDemoController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2A7C0A42320BD1800A60708 /* Build configuration list for PBXNativeTarget "HJExcelTable" */;
 			buildPhases = (
+				611AAA0950AED49FB2059075 /* [CP] Check Pods Manifest.lock */,
 				D2A7C0742320BD1500A60708 /* Sources */,
 				D2A7C0752320BD1500A60708 /* Frameworks */,
 				D2A7C0762320BD1500A60708 /* Resources */,
+				7DDEE6CEC09EA5EBC9B0AB57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,14 +311,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		611AAA0950AED49FB2059075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HJExcelTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DDEE6CEC09EA5EBC9B0AB57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HJExcelTable/Pods-HJExcelTable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HJExcelTable/Pods-HJExcelTable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HJExcelTable/Pods-HJExcelTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2A7C0742320BD1500A60708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A7C0802320BD1500A60708 /* ViewController.m in Sources */,
+				D2A7C0BA2320EC2500A60708 /* HJExcelDemoController.m in Sources */,
+				D2A7C0B32320DCA500A60708 /* HJExcelTable.m in Sources */,
 				D2A7C08B2320BD1800A60708 /* main.m in Sources */,
 				D2A7C07D2320BD1500A60708 /* AppDelegate.m in Sources */,
+				D2A7C0B22320DCA500A60708 /* HJExcelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +531,7 @@
 		};
 		D2A7C0A52320BD1800A60708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F2C7549D7EAB7C248962DF /* Pods-HJExcelTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +549,7 @@
 		};
 		D2A7C0A62320BD1800A60708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DA07CA019944BDFE2C4095 /* Pods-HJExcelTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

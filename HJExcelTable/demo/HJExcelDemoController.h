@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HJExcelDemoController.h
 //  HJExcelTable
 //
 //  Created by WHJ on 2019/9/5.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HJExcelDemoController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
